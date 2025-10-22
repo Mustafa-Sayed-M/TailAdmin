@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 function Breadcrumb({ className = "" }) {
 
     const { pathname } = useLocation();
-    if (pathname === "/") return;
+    if (pathname === "/" || pathname === "/analytics") return;
     const pageTitle = pathname.match(/\w+/ig).join(' ');
 
     return (
