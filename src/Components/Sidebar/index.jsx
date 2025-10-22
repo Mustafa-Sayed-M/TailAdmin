@@ -245,7 +245,7 @@ const links = [
                     {
                         isPro: true,
                         to: "/progress",
-                        label: "pagination"
+                        label: "Progress"
                     },
                     {
                         isPro: true,
