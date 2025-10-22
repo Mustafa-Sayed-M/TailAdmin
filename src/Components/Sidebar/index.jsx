@@ -15,7 +15,7 @@ import { PiSignInFill } from "react-icons/pi";
 const links = [
     // # Dashboard
     {
-        title: "title",
+        title: "Menu",
         links: [
             {
                 icon: <RxDashboard />,
@@ -184,6 +184,11 @@ const links = [
                     },
                     {
                         isPro: true,
+                        to: "/buttons-group",
+                        label: "Buttons Group"
+                    },
+                    {
+                        isPro: true,
                         to: "/badge",
                         label: "Badge"
                     },
@@ -204,7 +209,7 @@ const links = [
                     },
                     {
                         isPro: true,
-                        to: "/models",
+                        to: "/modals",
                         label: "Models"
                     },
                     {
