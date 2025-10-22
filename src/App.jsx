@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 // ## Dashboard Layout:
 import DashboardLayout from "@layouts/DashboardLayout";
 // ## Pages:
@@ -56,6 +56,7 @@ function App() {
       <Routes>
         {/* Dashboard Layout */}
         <Route path="/" element={<DashboardLayout />}>
+          <Route index element={<Navigate replace to={'/analytics'} />} />
           {/* Menu */}
           <Route path="e-commerce" element={<EcommercePage />} />
           <Route path="analytics" element={<AnalyticsPage />} />
