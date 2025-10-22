@@ -29,6 +29,7 @@ import InvoicePage from "@pages/support/InvoicePage";
 import ChartPage from "@pages/others/ChartPage";
 import AlertsPage from "@pages/others/AlertsPage";
 import ButtonsPage from "@pages/others/ButtonsPage";
+import ButtonsGroupPage from "@pages/others/ButtonsGroupPage";
 import BadgePage from "@pages/others/BadgePage";
 import BreadcrumbPage from "@pages/others/breadcrumb";
 import CardsPage from "@pages/others/CardsPage";
@@ -82,6 +83,7 @@ function App() {
           <Route path="chart" element={<ChartPage />} />
           <Route path="alerts" element={<AlertsPage />} />
           <Route path="buttons" element={<ButtonsPage />} />
+          <Route path="buttons-group" element={<ButtonsGroupPage />} />
           <Route path="badge" element={<BadgePage />} />
           <Route path="breadcrumb" element={<BreadcrumbPage />} />
           <Route path="cards" element={<CardsPage />} />
