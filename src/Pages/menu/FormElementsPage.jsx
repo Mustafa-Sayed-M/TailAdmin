@@ -1,7 +1,9 @@
+import FormElements from "@components/Elements/_Part1/Forms/FormElements";
+
 function FormElementsPage() {
     return (
         <div className="form-elements-page">
-            Form Elements Page
+            <FormElements />
         </div>
     )
 }
